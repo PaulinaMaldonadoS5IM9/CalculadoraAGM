@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraAGM">
         <activity
+            android:name=".MetrosPiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CosenoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HipotenusaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadianesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PropinaActivity"
+            android:exported="false" />
+        <activity
             android:name=".DivisionActivity"
             android:exported="false" />
         <activity
