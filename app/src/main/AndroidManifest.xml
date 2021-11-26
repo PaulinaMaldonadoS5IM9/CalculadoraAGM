@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculadoraAGM">
         <activity
+            android:name=".DivisionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MultiplicacionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RestaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SumaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
